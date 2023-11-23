@@ -1,0 +1,17 @@
+// A program written in java using scanner class of take string as input and printing it on the console.
+import java.util.*;
+public class Third
+{
+    public static void main(String args[])
+            
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your name:");
+        String name;
+        name=sc.nextLine();
+        System.out.println("Entered name is: "+name);
+        sc.close();
+        
+    }
+}
+
