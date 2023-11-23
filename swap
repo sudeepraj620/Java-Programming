@@ -1,0 +1,23 @@
+// Swapping the number without using the temporary variable in java using function
+import java.util.*;
+class Welcome
+{
+    
+     static void swapValue(int m,int n)
+     {
+          m=m-n;
+          n=m+n;
+          m=n-m;
+          System.out.println("Value of the m is:"+m);
+          System.out.println("Value of the n is:"+n);
+
+     }
+         
+            
+    public static void main(String args[])
+    { 
+        int m=5;
+        int n=2;
+        swapValue(m,n);  
+    }
+}
