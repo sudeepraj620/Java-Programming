@@ -1,4 +1,5 @@
 // A program written in java using scanner class of take string as input and printing it on the console.
+// First letter should be capitalised
 import java.util.*;
 public class Third
 {
